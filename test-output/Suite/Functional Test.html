@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Functional Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 30 14:27:04 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>243 seconds (243281 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cucumberOptions.TestRunnerNG.feature()'><b>feature</b><br>Test class: cucumberOptions.TestRunnerNG<br>Test method: Runs Cucumber Feature<br>Parameters: To add products to the Cart and Validate the Cart and Price<br/>
+<a href="#Output-1690233783" onClick='toggleBox("Output-1690233783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1690233783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1690233783">
+User Logged into application Successfully<br/>
+User searched product Successfully<br/>
+Cart count is: 1<br/>
+User added 1 product to the cart Successfully<br/>
+Title of the page: Your cart<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Sub Total is: Rs. 1,338.61<br/>
+User Logged into application Successfully<br/>
+Cart count is: 1<br/>
+User added 1 product to the cart Successfully<br/>
+Title of the page: Your cart<br/>
+Added Product Details: RoundNeck Shirt 14<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Sub Total is: Rs. 1,338.61<br/>
+User Logged into application Successfully<br/>
+User searched product Successfully<br/>
+Cart count is: 1<br/>
+User added 1 product to the cart Successfully<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Expected Product Total is: 2677.22<br/>
+----------------------------------------------------<br/>
+Increased Product Quantity: 2<br/>
+Changed Product Total: Rs. 2,677.22<br/>
+Sub Total is: Rs. 2,677.22<br/>
+Product Total and Sub Total Matched <br/>
+User Logged into application Successfully<br/>
+User searched product Successfully<br/>
+Cart count is: 1<br/>
+User added 1 product to the cart Successfully<br/>
+Clicked on Remove link successfully <br/>
+Your cart is currently empty.<br/>
+Product deleted successfully from cart <br/>
+User Logged into application Successfully<br/>
+Cart count is: 4<br/>
+User added 4 product to the cart Successfully<br/>
+Title of the page: Your cart<br/>
+Added Product Details: RoundNeck Shirt<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: Another Round Neck Shirt<br/>
+Product Price is: Rs. 1,358.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,358.61<br/>
+Added Product Details: Round Neck Shirt 5<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: Round Neck Shirt 6<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: RoundNeck Shirt 14<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Sub Total is: Rs. 6,713.05<br/>
+User Logged into application Successfully<br/>
+User searched product Successfully<br/>
+S<br/>
+M<br/>
+L<br/>
+XL<br/>
+2XL<br/>
+3XL<br/>
+4XL<br/>
+Cart count is: 8<br/>
+User added 8 product to the cart Successfully<br/>
+Title of the page: Your cart<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,797.57<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,797.57<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,644.58<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,644.58<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,529.85<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,529.85<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Added Product Details: Round Neck Shirt 16<br/>
+Product Price is: Rs. 1,338.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,338.61<br/>
+Sub Total is: Rs. 11,665.05<br/>
+User Logged into application Successfully<br/>
+Silver<br/>
+Burnt Orange<br/>
+Cart count is: 2<br/>
+User added 2 product to the cart Successfully<br/>
+Title of the page: Your cart<br/>
+Added Product Details: Another Round Neck Shirt<br/>
+Product Price is: Rs. 1,538.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,538.61<br/>
+Added Product Details: Another Round Neck Shirt<br/>
+Product Price is: Rs. 1,358.61<br/>
+Product Quantity: 1<br/>
+Product Total is: Rs. 1,358.61<br/>
+Sub Total is: Rs. 2,897.22<br/>
+</div>
+</td>
+<td></td>
+<td>242</td>
+<td>cucumberOptions.TestRunnerNG@6e06451e</td></tr>
+</table><p>
+</body>
+</html>
